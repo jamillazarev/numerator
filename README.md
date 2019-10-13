@@ -5,9 +5,7 @@ Easy way to numerate frames.
 ![artwork.png](https://i.imgur.com/uxYVAoR.png)
 
 ## Usage
-Numerate using 2 flags:
-{current} – to place current frame number
-{total} – to place number of all slides.
+Numerate using 2 flags: {current} – to place current frame number and {total} – to place number of all slides.
 
 3 modes of direction: → ↘ ↓
 
