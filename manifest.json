@@ -1,0 +1,12 @@
+{
+  "name": "Numerator",
+  "id": "765276421612114640",
+  "api": "1.0.0",
+  "main": "code.js",
+  "menu": [
+    {"name": "↓", "command": "↓"},
+    {"name": "→", "command": "→"},
+    {"name": "↘", "command": "↘"},
+    {"separator": true}
+  ]
+}
