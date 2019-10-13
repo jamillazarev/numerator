@@ -1,22 +1,16 @@
-This plugin template uses Typescript. If you are familiar with Javascript, Typescript will
-look very familiar. In fact, valid Javascript code is already valid Typescript code.
+# Numerator
 
-Typescript adds type annotations to variables. This allows code editors such as Visual Studio Code
-to provide information about the Figma API while you are writing code, as well as help catch bugs
-you previously didn't notice.
+Easy way to numerate frames.
 
-For more information, visit https://www.typescriptlang.org/
+![artwork.png](https://i.imgur.com/uxYVAoR.png)
 
-Using Typescript requires a compiler to convert Typescript (code.ts) into Javascript (code.js)
-for the browser to run.
+## Usage
+Numerate using 2 flags:
+{current} – to place current frame number
+{total} – to place number of all slides.
 
-To get the TypeScript compiler working:
+3 modes of direction: → ↘ ↓
 
-1. Download Visual Studio Code if you haven't already: https://code.visualstudio.com/.
-2. Install the TypeScript compiler globally: `sudo npm install -g typescript`.
-3. Open this directory in Visual Studio Code.
-4. Compile TypeScript to JavaScript: Run the "Terminal > Run Build Task..." menu item,
-    then select "tsc: watch - tsconfig.json". You will have to do this again every time
-    you reopen Visual Studio Code.
+If after running the plugin you have not changed the replaced content it will be updated automatically – you can add more frames and re-run the plugin again.
 
-That's it! Visual Studio Code will regenerate the JavaScript file every time you save.
+Only those objects in which either the frame name or the text layer content content has the flags are considered.
