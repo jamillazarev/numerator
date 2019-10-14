@@ -1,6 +1,6 @@
 # Numerator
 
-Easy way to numerate frames.
+Figma plugin. Easy way to numerate frames.
 
 ![artwork.png](https://i.imgur.com/uxYVAoR.png)
 
