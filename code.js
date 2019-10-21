@@ -74,21 +74,23 @@ function selectObjs() {
             const filteredTextLayers = [];
             const filteredPromises = [];
             unfilteredTextLayers.forEach(function (obj) {
-                let promise = figma
-                    .loadFontAsync(obj.fontName)
-                    .then(() => {
-                    if (obj.characters == obj.getPluginData('current')) {
-                        obj.characters = obj.getPluginData('initial');
-                    }
-                    return obj;
-                })
-                    .then(obj => {
-                    if (checkFlags(obj.characters, flags).length) {
-                        filteredTextLayers.push(obj);
-                        obj.setPluginData('initial', `${obj.characters}`);
-                    }
-                });
-                filteredPromises.push(promise);
+                if (typeof obj.fontName !== "symbol") {
+                    let promise = figma
+                        .loadFontAsync(obj.fontName)
+                        .then(() => {
+                        if (obj.characters == obj.getPluginData('current')) {
+                            obj.characters = obj.getPluginData('initial');
+                        }
+                        return obj;
+                    })
+                        .then(obj => {
+                        if (checkFlags(obj.characters, flags).length) {
+                            filteredTextLayers.push(obj);
+                            obj.setPluginData('initial', `${obj.characters}`);
+                        }
+                    });
+                    filteredPromises.push(promise);
+                }
             });
             proms.push(Promise.all(filteredPromises)
                 .then(() => {
