@@ -2,7 +2,7 @@
 
 Figma plugin. Easy way to numerate frames.
 
-![artwork.png](https://i.imgur.com/uxYVAoR.png)
+![artwork.png](https://imgur.com/a/PRy8jJF)
 
 ## Usage
 Numerate using 2 flags: {current}, {total} and 3 direction modes: → ↘ ↓
