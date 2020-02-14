@@ -2,12 +2,12 @@
 
 Figma plugin. Easy way to numerate frames.
 
-![artwork.png](https://i.imgur.com/oSN3y5a.png)
+![artwork.png](https://i.imgur.com/HmtuyrK.png)
 
 ## Usage
 Numerate using 2 flags: {current}, {total} and 3 direction modes: → ↘ ↓
-{current} – to place current frame number
-{total} – to place number of all slides.
+{current} – to place the current frame number
+{total} – to place the number of all slides.
 
 Only those objects in which either the frame name or the text layer content content has the flags are considered.
 
