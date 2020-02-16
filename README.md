@@ -1,6 +1,6 @@
 # Numerator
 
-Figma plugin. Easy way to numerate frames.
+Figma plugin. Easy way to numerate frames. Donate/Support https://gum.co/Numerator
 
 ![artwork.png](https://i.imgur.com/Cngxjoe.png)
 
