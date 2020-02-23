@@ -144,13 +144,22 @@ promise.then(() => {
   switch (figma.command) {
     case '↓':
       sortObjs('y');
+      figma.currentPage.setRelaunchData(
+        {"↓": ""}
+      );
       break;
     case '→':
       sortObjs('x');
+      figma.currentPage.setRelaunchData(
+        {"→": ""}
+      );
       break;
     case '↘':
       sortObjs('x');
       sortObjs('y');
+      figma.currentPage.setRelaunchData(
+        {"↘": ""}
+      );
   }
   printData();
   figma.closePlugin();

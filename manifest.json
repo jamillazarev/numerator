@@ -8,5 +8,10 @@
     {"name": "→", "command": "→"},
     {"name": "↘", "command": "↘"},
     {"separator": true}
+  ],
+  "relaunchButtons": [
+    {"name": "Numerator: ↓", "command": "↓"},
+    {"name": "Numerator: →", "command": "→"},
+    {"name": "Numerator: ↘", "command": "↘"}
   ]
 }
