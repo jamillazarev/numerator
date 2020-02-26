@@ -1,6 +1,10 @@
 # Numerator
 
-Figma plugin. Easy way to numerate frames. Donate/Support https://gum.co/Numerator
+Figma plugin. Easy way to numerate frames.
+
+Install: https://www.figma.com/community/plugin/765276421612114640/Numerator
+
+Donate/Support: https://gum.co/Numerator
 
 ![artwork.png](https://i.imgur.com/Cngxjoe.png)
 
